@@ -21,6 +21,6 @@ then
 else
 	log "audit_control acl check"
 	log "/etc/security/audit_control is NG"
-	log "Audit Log increase 60D OR 1G"
+	log "SUCCESS : Audit Log increase 60D OR 1G"
 	${CMD}
 fi
