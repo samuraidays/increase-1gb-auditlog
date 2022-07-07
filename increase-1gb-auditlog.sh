@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## Log Function
-readonly LOGFILE="/Library/Logs/TechSupport/jamf-cis-${0##*/}.log"
+readonly LOGFILE="/Library/Logs/TechSupport/jamf-auditlog-increase.log"
 readonly PROCNAME=${0##*/}
 function log() {
   local fname=${BASH_SOURCE[1]##*/}
